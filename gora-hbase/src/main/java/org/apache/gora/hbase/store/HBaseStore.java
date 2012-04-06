@@ -130,7 +130,7 @@ implements Configurable {
       createSchema();
     }
 
-    table = new HBaseTableConnection(getConf(), getSchemaName(), true);
+    table = new HBaseTableConnection(getConf(), getSchemaName(), false);
   }
 
   @Override
